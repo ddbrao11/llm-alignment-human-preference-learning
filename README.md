@@ -1,2 +1,4 @@
-# predict-human-pref-using-chatbot-arena-convos-llms
-Finetune LLMs to Predict Human Preference using Chatbot Arena conversations
+## Alignment Motivation
+
+Aligning LLM outputs with human preference signals is essential
+for safe deployment of AI systems.
