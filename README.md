@@ -30,5 +30,20 @@ alignment behavior.
 Human preferences are subjective and dataset-dependent.
 Broader evaluation across domains is required to ensure robustness.
 
+## Dataset & Task
+This work studies preference prediction from conversational interactions by modeling which responses are preferred under given contexts.
+
+## Evaluation
+- Classification metrics (accuracy/F1)
+- Calibration checks and targeted error analysis (topic, style, length)
+
+## Ethics & Bias Considerations
+Preference labels are subjective and may reflect annotator and dataset-specific biases. This repo includes guidance for cautious interpretation and broader evaluation.
+
+## Reproducibility
+- Environment: see `requirements.txt`
+- Run: `python src/train.py --config configs/default.yaml` 
+
+
 
 
