@@ -2,6 +2,8 @@
 
 This repository represents ongoing independent research exploration.
 
+Detailed methodology: [docs/methodology.md](docs/methodology.md)
+
 ## Research Overview
 This project investigates techniques for aligning large language
 models with human preference signals through supervised
