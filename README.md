@@ -2,7 +2,7 @@
 
 This repository represents ongoing independent research exploration.
 
-Detailed methodology: [docs/methodology.md](docs/methodology.md)
+Detailed methodology: docs/methodology.md
 
 ## Research Overview
 This project investigates techniques for aligning large language
@@ -27,6 +27,15 @@ into training processes.
 Fine-tuning pipelines are explored using conversational datasets,
 classification objectives, and evaluation strategies to assess
 alignment behavior.
+
+## Evaluation
+This work evaluates preference prediction using held-out splits and standard classification metrics (e.g., accuracy/F1). In addition to aggregate scores, error analysis is used to identify failure modes such as ambiguous preference pairs, long-context truncation, and topic-specific degradation.
+
+## Ethics & Bias Considerations
+Human preference labels are inherently subjective and may encode annotator, demographic, or platform-specific biases. Results should be interpreted as modeling observed preference signals rather than normative “ground truth.” Future work includes bias audits, robustness checks across subsets, and calibration analysis to reduce overconfident predictions.
+
+## Reproducibility Note
+This repository does not redistribute datasets. It provides methodology, experiment structure, and scripts/configuration patterns intended to support reproducible research.
 
 ## Limitations
 Human preferences are subjective and dataset-dependent.
