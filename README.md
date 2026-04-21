@@ -2,7 +2,8 @@
 
 This repository represents ongoing independent research exploration.
 
-Detailed methodology: docs/methodology.md
+- Detailed methodology: docs/methodology.md
+- Paper draft: paper/outline.md
 
 ## Research Overview
 This project investigates techniques for aligning large language
